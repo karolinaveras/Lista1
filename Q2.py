@@ -1,11 +1,11 @@
-AX = int(input('digite o primeiro ponto:'))
+AX = int(input('Digite o primeiro ponto:'))
 
-AY = int(input('digite o segundo ponto:'))
+AY = int(input('Digite o segundo ponto:'))
 
-BX = int(input('digite o terceiro ponto:'))
+BX = int(input('Digite o terceiro ponto:'))
 
-BY = int(input('digite o quarto ponto:'))
+BY = int(input('Digite o quarto ponto:'))
 
 PLANO = ((BX - AX) **2 + (BY - AY) **(1/2))
 
-print(f"a distancia entre os dois pontos é{PLANO}")
+print(f"A distancia entre os dois pontos é: {PLANO}")
