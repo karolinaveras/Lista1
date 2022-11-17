@@ -1,5 +1,5 @@
-A = float(input('VALOR DE A:'))
-B = float(input('VALOR DE B:'))
+A = int(input('VALOR DE A:'))
+B = int(input('VALOR DE B:'))
 
 temp = A
 A = B
