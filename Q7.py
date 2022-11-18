@@ -10,4 +10,10 @@ if imc <= 18.5:
 elif imc == 18.5 or 24.9:
     print(f'Seu IMC é {imc}, você esta com o peso normal!')
 
+elif imc == 25 or 29.9:
+    print(f'Seu IMC é {imc}, voc~e esta com sobrepeso!')
+
+elif imc == 30 or 34.9:
+    print(f'Seu IMC é {imc} e indica obesidade Grau I')
+
 elif
