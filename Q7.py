@@ -21,6 +21,3 @@ elif imc == 35 and 39.9:
 
 elif imc >= 40:
     print(f'Seu IMC é {imc}, você esá com obesidade mórbida!')
-
-else:
-    print('IMC Invalido!')
