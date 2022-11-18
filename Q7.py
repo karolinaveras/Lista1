@@ -14,10 +14,13 @@ elif imc == 25 and 29.9:
     print(f'Seu IMC é {imc}, você esta com sobrepeso!')
 
 elif imc == 30 and 34.9:
-    print(f'Seu IMC é {imc} e indica obesidade Grau I')
+    print(f'Seu IMC é {imc} e indica obesidade Grau I!')
 
 elif imc == 35 and 39.9:
-    print(f'Seu IMC é {imc}, você está com obesidade de grau II')
+    print(f'Seu IMC é {imc}, você está com obesidade de grau II!')
 
 elif imc >= 40:
-    print(f'Seu IMC é {imc}, você esá com obesidade mórbida')
+    print(f'Seu IMC é {imc}, você esá com obesidade mórbida!')
+
+else:
+    print('IMC Invalido!')
